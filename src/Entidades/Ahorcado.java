@@ -12,6 +12,8 @@ public class Ahorcado {
     private int cantJ;//cantidad de jugadas maximas. 
     private String atributoPrueba; 
     private int atributo1; 
+    private int atributo2; 
+    
 
 //Constructores: 
     public Ahorcado() {
