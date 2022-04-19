@@ -10,6 +10,8 @@ public class Ahorcado {
     private char word[];
     private int cantL;//cantidad de letras encontradas.
     private int cantJ;//cantidad de jugadas maximas. 
+    private String atributoPrueba; 
+    private int atributo1; 
 
 //Constructores: 
     public Ahorcado() {
@@ -71,22 +73,7 @@ public class Ahorcado {
     //Metodo buscar(letra): 
     public void buscar() {
         
-        int cont = 0;
-
-        do {
-            for (int i = 0; i < word.length; i++) {
-                System.out.println("Ingrese una letra: ");
-                char letra = leer.next().charAt(0);
-                cont = cont + 1;
-                if (word[i]==letra){
-                    System.out.println("Letra acertada! ");
-                } else {
-                    System.out.println("Letra fallida. ");
-                }
-
-            }
-
-        } while (cont <= cantJ);
+       
 
     }
 
